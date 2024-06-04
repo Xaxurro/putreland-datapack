@@ -1,6 +1,5 @@
 {
     "type": "minecraft:chest",
-	"random_sequence": "minecraft:spawners/trial_chamber/key",
     "pools": [
         {
             "rolls": 1.0,

@@ -1,7 +1,6 @@
 
 {
 	"type": "minecraft:chest",
-	"random_sequence": "minecraft:spawners/trial_chamber/key",
 	"pools": [
 	  {
 		"rolls": {
@@ -9,7 +8,7 @@
 			"min": 1.0,
 			"max": 3.0
 		},
-		"bonus_rolls": 0.0,
+		"bonus_rolls": 1.5,
 		"entries": [
 		  {
 			"type": "minecraft:item",

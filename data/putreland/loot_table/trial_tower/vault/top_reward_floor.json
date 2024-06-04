@@ -19,7 +19,7 @@
 					"components": {
 						"minecraft:unbreakable": {},
 						"minecraft:rarity": "epic",
-						"minecraft:item_name": "'Trial Tower Sword'",
+						"minecraft:item_name": "'Vixotanian Sword'",
 						"minecraft:attribute_modifiers": [
 							{
 								"id": "minecraft:attribute",
@@ -32,7 +32,7 @@
 								"id": "minecraft:attribute",
 								"type": "generic.attack_speed",
 								"slot": "mainhand",
-								"amount": 1.6,
+								"amount": -2.0,
 								"operation": "add_value"
 							}
 						]
@@ -43,7 +43,7 @@
 		  {
 			"type": "minecraft:loot_table",
 			"value": "putreland:trial_tower/reward/materials",
-			"weight": 5
+			"weight": 10
 		  },
 		  {
 			"type": "minecraft:loot_table",
@@ -52,6 +52,5 @@
 		  }
 		]
 	  }
-	],
-	"random_sequence": "minecraft:spawners/trial_chamber/key"
+	]
 }
