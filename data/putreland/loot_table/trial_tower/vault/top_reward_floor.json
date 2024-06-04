@@ -11,7 +11,7 @@
 		"entries": [
 		  {
 			"type": "minecraft:item",
-			"value": "minecraft:netherite_sword",
+			"name": "minecraft:netherite_sword",
 			"weight": 1,
 			"functions": [
 				{
@@ -26,6 +26,13 @@
 								"type": "generic.attack_damage",
 								"slot": "mainhand",
 								"amount": 9.0,
+								"operation": "add_value"
+							},
+							{
+								"id": "minecraft:attribute",
+								"type": "generic.attack_speed",
+								"slot": "mainhand",
+								"amount": 1.6,
 								"operation": "add_value"
 							}
 						]
