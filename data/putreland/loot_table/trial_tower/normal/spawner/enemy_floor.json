@@ -11,17 +11,17 @@
 		"entries": [
 		  {
 			"type": "minecraft:loot_table",
-			"value": "putreland:common/tower_keys",
+			"value": "putreland:trial_tower/common/tower_keys",
 			"weight": 1
 		  },
 		  {
 			"type": "minecraft:loot_table",
-			"value": "putreland:common/ominous_bottles",
+			"value": "putreland:trial_tower/common/ominous_bottles",
 			"weight": 1
 		  },
 		  {
 			"type": "minecraft:loot_table",
-			"value": "putreland:trial_tower/reward/materials",
+			"value": "putreland:trial_tower/normal/reward/materials",
 			"weight": 1
 		  }
 		]

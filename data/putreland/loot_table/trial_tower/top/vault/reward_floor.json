@@ -7,7 +7,7 @@
 			"max": 5.0,
 			"min": 2.0
 		},
-		"bonus_rolls": 1.0,
+		"bonus_rolls": 0.5,
 		"entries": [
 		  {
 			"type": "minecraft:item",
@@ -42,12 +42,12 @@
 		  },
 		  {
 			"type": "minecraft:loot_table",
-			"value": "putreland:trial_tower/reward/materials",
+			"value": "putreland:trial_tower/top/reward/materials",
 			"weight": 10
 		  },
 		  {
 			"type": "minecraft:loot_table",
-			"value": "putreland:trial_tower/reward/enchantments",
+			"value": "putreland:trial_tower/top/reward/enchantments",
 			"weight": 5
 		  }
 		]
