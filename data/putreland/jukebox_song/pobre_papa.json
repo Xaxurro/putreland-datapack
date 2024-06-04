@@ -1,0 +1,8 @@
+{
+	"sound_event": {
+		"sound_id": "putreland:music_disc.pobre_papa"
+	},
+	"description": "Cuarteto de Nos - Pobre Papá",
+	"length_in_seconds": 179,
+	"comparator_output": 15
+}

@@ -1,0 +1,8 @@
+{
+	"sound_event": {
+		"sound_id": "putreland:music_disc.clown"
+	},
+	"description": "Clown",
+	"length_in_seconds": 153,
+	"comparator_output": 15
+}

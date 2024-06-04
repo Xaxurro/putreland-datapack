@@ -1,0 +1,8 @@
+{
+	"sound_event": {
+		"sound_id": "putreland:music_disc.rickroll"
+	},
+	"description": "Rick Astley - Never Gonna Give You Up",
+	"length_in_seconds": 213,
+	"comparator_output": 15
+}

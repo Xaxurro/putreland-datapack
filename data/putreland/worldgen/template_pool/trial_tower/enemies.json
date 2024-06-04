@@ -1,0 +1,33 @@
+{
+    "name": "putreland:trial_tower/enemies",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "location": "putreland:trial_tower/spawner/zombie",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "location": "putreland:trial_tower/spawner/skeleton",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "location": "putreland:trial_tower/spawner/spider",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:chest",
+	"random_sequence": "minecraft:spawners/trial_chamber/key",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:trial_key",
+					"count": {
+						"type": "minecraft:uniform",
+						"min": 1.0,
+						"max": 3.0
+					},
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"minecraft:item_name": "'Trial Tower Key'",
+								"minecraft:rarity": "uncommon",
+								"minecraft:custom_data": {
+									"origin": "trial_tower"
+								}
+							}
+						}
+					]
+				}
+			]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "putreland:trial_tower/floors",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "location": "putreland:trial_tower/floor/top",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "location": "putreland:trial_tower/floor/reward",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 2
+        },
+        {
+            "element": {
+                "location": "putreland:trial_tower/floor/enemy",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 5
+        }
+    ]
+}
