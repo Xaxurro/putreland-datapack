@@ -1,0 +1,84 @@
+{
+    "name": "putreland:trial_tower/decorations",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            },
+            "weight": 5
+        },
+        {
+            "element": {
+                "location": "putreland:trial_tower/floor/decoration/2_medium_walls",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 5
+        },
+        {
+            "element": {
+                "location": "putreland:trial_tower/floor/decoration/3_small_walls",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 5
+        },
+        {
+            "element": {
+                "location": "putreland:trial_tower/floor/decoration/big_wall",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 5
+        },
+        {
+            "element": {
+                "location": "putreland:trial_tower/floor/decoration/small_wall",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 5
+        },
+        {
+            "element": {
+                "location": "putreland:trial_tower/floor/decoration/big_flower_pots",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 20
+        },
+        {
+            "element": {
+                "location": "putreland:trial_tower/floor/decoration/pyramid",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "location": "putreland:trial_tower/floor/decoration/table",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 20
+        },
+        {
+            "element": {
+                "location": "putreland:trial_tower/floor/decoration/target",
+                "element_type": "single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            },
+            "weight": 20
+        }
+    ]
+}

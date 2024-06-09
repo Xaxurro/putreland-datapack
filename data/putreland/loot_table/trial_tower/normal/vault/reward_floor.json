@@ -11,7 +11,7 @@
 		"entries": [
 		  {
 			"type": "minecraft:loot_table",
-			"value": "putreland:trial_tower/normal/reward/materials",
+			"value": "putreland:trial_tower/normal/reward/vault_materials",
 			"weight": 5
 		  },
 		  {

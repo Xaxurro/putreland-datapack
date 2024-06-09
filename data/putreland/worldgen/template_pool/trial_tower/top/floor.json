@@ -1,11 +1,11 @@
 {
-    "name": "putreland:trial_tower/top_rewards",
+    "name": "putreland:trial_tower/top/floor",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
-                "location": "putreland:trial_tower/vault/top_reward",
+                "location": "putreland:trial_tower/floor/top",
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty"

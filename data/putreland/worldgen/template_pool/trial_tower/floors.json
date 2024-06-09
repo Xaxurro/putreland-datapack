@@ -1,6 +1,6 @@
 {
     "name": "putreland:trial_tower/floors",
-    "fallback": "minecraft:empty",
+    "fallback": "putreland:trial_tower/top/floor",
     "elements": [
         {
             "element": {

@@ -10,6 +10,11 @@
 		"bonus_rolls": 0.5,
 		"entries": [
 		  {
+			"type": "minecraft:loot_table",
+			"value": "putreland:trial_tower/ominous/reward/music",
+			"weight": 1
+		  },
+		  {
 			"type": "minecraft:item",
 			"name": "minecraft:netherite_sword",
 			"weight": 1,
@@ -19,7 +24,7 @@
 					"components": {
 						"minecraft:unbreakable": {},
 						"minecraft:rarity": "epic",
-						"minecraft:item_name": "'Vixotanian Sword'",
+						"minecraft:item_name": "'Yinigardian Sword'",
 						"minecraft:attribute_modifiers": [
 							{
 								"id": "minecraft:attribute",

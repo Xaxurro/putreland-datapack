@@ -1,0 +1,50 @@
+
+{
+	"type": "minecraft:chest",
+	"pools": [
+	  {
+		"rolls": {
+			"type": "minecraft:uniform",
+			"max": 3.0,
+			"min": 1.0
+		},
+		"bonus_rolls": 1.5,
+		"entries": [
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:music_disc_pigstep",
+				"weight": 1,
+				"functions": [
+					{
+						"function": "set_components",
+						"components": {
+							"minecraft:unbreakable": {},
+							"minecraft:rarity": "epic",
+							"minecraft:jukebox_playable": {
+								"song": "putreland:skibidi_fortnite"
+							}
+						}
+					}
+				]
+        	},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:music_disc_pigstep",
+				"weight": 1,
+				"functions": [
+					{
+						"function": "set_components",
+						"components": {
+							"minecraft:unbreakable": {},
+							"minecraft:rarity": "epic",
+							"minecraft:jukebox_playable": {
+								"song": "putreland:pobre_papa"
+							}
+						}
+					}
+				]
+        	}
+		]
+	  }
+	]
+}

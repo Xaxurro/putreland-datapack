@@ -11,23 +11,23 @@
 		"entries": [
 		  {
 			"type": "minecraft:loot_table",
+			"value": "putreland:trial_tower/ominous/reward/music",
+			"weight": 1
+		  },
+		  {
+			"type": "minecraft:loot_table",
 			"value": "putreland:trial_tower/common/ominous_tower_keys",
 			"weight": 1
 		  },
 		  {
 			"type": "minecraft:loot_table",
-			"value": "putreland:trial_tower/common/ominous_bottles",
-			"weight": 1
-		  },
-		  {
-			"type": "minecraft:loot_table",
 			"value": "putreland:trial_tower/ominous/reward/enchantments",
-			"weight": 5
+			"weight": 4
 		  },
 		  {
 			"type": "minecraft:loot_table",
 			"value": "putreland:trial_tower/ominous/reward/materials",
-			"weight": 7
+			"weight": 25
 		  }
 		]
 	  }

@@ -5,27 +5,11 @@
 	  {
 		"rolls": {
 			"type": "minecraft:uniform",
-			"max": 3.0,
+			"max": 2.0,
 			"min": 1.0
 		},
 		"bonus_rolls": 1.5,
 		"entries": [
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:netherite_scrap",
-			"weight": 1,
-			"functions": [
-				{
-					"function": "set_count",
-					"add": false,
-					"count": {
-						"type": "minecraft:uniform",
-						"max": 2.0,
-						"min": 1.0
-					}
-				}
-			]
-          },
 		  {
 			"type": "minecraft:item",
 			"name": "minecraft:diamond",
@@ -36,8 +20,8 @@
 					"add": false,
 					"count": {
 						"type": "minecraft:uniform",
-						"max": 4.0,
-						"min": 2.0
+						"max": 3.0,
+						"min": 1.0
 					}
 				}
 			]
@@ -52,8 +36,8 @@
 					"add": false,
 					"count": {
 						"type": "minecraft:uniform",
-						"max": 9.0,
-						"min": 5.0
+						"max": 7.0,
+						"min": 3.0
 					}
 				}
 			]
@@ -69,7 +53,7 @@
 					"count": {
 						"type": "minecraft:uniform",
 						"max": 10.0,
-						"min": 5.0
+						"min": 3.0
 					}
 				}
 			]
@@ -84,15 +68,15 @@
 					"add": false,
 					"count": {
 						"type": "minecraft:uniform",
-						"max": 10.0,
-						"min": 3.0
+						"max": 7.0,
+						"min": 1.0
 					}
 				}
 			]
           },
 		  {
 			"type": "minecraft:item",
-			"name": "minecraft:redstone",
+			"name": "minecraft:copper_ingot",
 			"weight": 15,
 			"functions": [
 				{
@@ -100,24 +84,8 @@
 					"add": false,
 					"count": {
 						"type": "minecraft:uniform",
-						"max": 27.0,
-						"min": 7.0
-					}
-				}
-			]
-          },
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:lapis_lazuli",
-			"weight": 11,
-			"functions": [
-				{
-					"function": "set_count",
-					"add": false,
-					"count": {
-						"type": "minecraft:uniform",
-						"max": 27.0,
-						"min": 7.0
+						"max": 18.0,
+						"min": 4.0
 					}
 				}
 			]
