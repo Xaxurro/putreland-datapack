@@ -7,7 +7,7 @@
                 "location": "putreland:trial_tower/floor/top",
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty"
+                "processors": "putreland:trial_tower_aging"
             },
             "weight": 1
         },
@@ -16,7 +16,7 @@
                 "location": "putreland:trial_tower/floor/reward",
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty"
+                "processors": "putreland:trial_tower_aging"
             },
             "weight": 2
         },
@@ -25,7 +25,7 @@
                 "location": "putreland:trial_tower/floor/enemy",
                 "element_type": "single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty"
+                "processors": "putreland:trial_tower_aging"
             },
             "weight": 5
         }

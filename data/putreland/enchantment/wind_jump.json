@@ -1,0 +1,43 @@
+{
+	"description": {
+		"translate": "enchantment.putreland.wind_jump"
+	},
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "primary_items": "#minecraft:enchantable/foot_armor",
+    "weight": 100,
+    "max_level": 3,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 6
+    },
+    "max_cost": {
+        "base": 11,
+        "per_level_above_first": 6
+    },
+    "anvil_cost": 2,
+    "slots": [
+        "feet"
+    ],
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "putreland:wind_jump"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "movement": {
+                            "vertical_speed": {
+                                "min": 0.05,
+                                "max": 2.5
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

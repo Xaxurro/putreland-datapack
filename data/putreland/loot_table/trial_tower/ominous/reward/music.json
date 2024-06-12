@@ -38,6 +38,23 @@
 							"minecraft:unbreakable": {},
 							"minecraft:rarity": "epic",
 							"minecraft:jukebox_playable": {
+								"song": "putreland:tu_quiere_mi_pinga"
+							}
+						}
+					}
+				]
+        	},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:music_disc_pigstep",
+				"weight": 1,
+				"functions": [
+					{
+						"function": "set_components",
+						"components": {
+							"minecraft:unbreakable": {},
+							"minecraft:rarity": "epic",
+							"minecraft:jukebox_playable": {
 								"song": "putreland:pobre_papa"
 							}
 						}

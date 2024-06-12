@@ -1,0 +1,35 @@
+{
+	"max_level": 5,
+	"anvil_cost": 1,
+	"description": {
+		"translate": "enchantment.putreland.beast_damage"
+	},
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"id": "minecraft:enchantment.attack_damage",
+				"operation": "add_value",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 2.5,
+					"per_level_above_first": 1.5
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 45,
+		"per_level_above_first": 11
+	},
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 11
+	},
+	"slots": [
+		"body"
+	],
+	"supported_items": "minecraft:wolf_armor",
+	"primary_items": "minecraft:wolf_armor",
+	"weight": 10
+}
