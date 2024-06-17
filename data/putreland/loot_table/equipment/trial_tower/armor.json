@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:equipment",
+	"pools": [
+	  {
+		"bonus_rolls": 0.0,
+		"entries": [
+		  {
+			"type": "minecraft:loot_table",
+			"value": "putreland:equipment/trial_tower/armor/leather",
+			"weight": 1
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"value": "putreland:equipment/trial_tower/armor/gold",
+			"weight": 3
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"value": "putreland:equipment/trial_tower/armor/chainmail",
+			"weight": 5
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"value": "putreland:equipment/trial_tower/armor/iron",
+			"weight": 6
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"value": "putreland:equipment/trial_tower/armor/diamond",
+			"weight": 3
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"value": "putreland:equipment/trial_tower/armor/netherite",
+			"weight": 1
+		  }
+		],
+		"rolls": 1.0
+	  }
+	]
+  }
+  

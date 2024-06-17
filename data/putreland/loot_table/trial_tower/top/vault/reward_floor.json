@@ -24,7 +24,7 @@
 					"components": {
 						"minecraft:unbreakable": {},
 						"minecraft:rarity": "epic",
-						"minecraft:item_name": "'Yinigardian Sword'",
+						"minecraft:item_name": "'Espada de Yinigard'",
 						"minecraft:attribute_modifiers": [
 							{
 								"id": "minecraft:attribute",

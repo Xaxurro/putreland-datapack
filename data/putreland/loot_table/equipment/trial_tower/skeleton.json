@@ -1,0 +1,54 @@
+{
+	"type": "minecraft:equipment",
+	"pools": [
+	  {
+		"bonus_rolls": 0.0,
+		"entries": [
+			{
+				"type": "minecraft:loot_table",
+				"value": "putreland:equipment/trial_tower/armor",
+				"weight": 1
+			}
+		],
+		"rolls": 1.0
+	  },
+	  {
+		"bonus_rolls": 0.0,
+		"rolls": 1.0,
+		"entries": [
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:bow",
+				"weight": 2
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:bow",
+				"functions": [
+					{
+						"add": false,
+						"function": "minecraft:set_enchantments",
+						"enchantments": {
+							"minecraft:power": 1.0
+						}
+					}
+				]
+			},
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:bow",
+			"functions": [
+				{
+					"add": false,
+					"function": "minecraft:set_enchantments",
+					"enchantments": {
+						"minecraft:punch": 1.0
+					}
+				}
+			]
+		  }
+		]
+	  }
+	]
+  }
+  

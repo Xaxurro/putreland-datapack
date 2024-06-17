@@ -1,12 +1,8 @@
 {
     "values": [
-        "minecraft:plains",
-        "minecraft:forest",
         "minecraft:jagged_peaks",
         "minecraft:stony_peaks",
         "minecraft:meadow",
-        "minecraft:cherry_grove",
-        "minecraft:stony_shore",
-        "minecraft:dark_forest"
+        "minecraft:cherry_grove"
     ]
 }
